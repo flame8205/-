@@ -1,3 +1,4 @@
+
 export interface StockFinancials {
   symbol: string;
   companyName: string;
@@ -24,6 +25,14 @@ export interface AnalysisResult {
   score: number; // Accumulated Revenue YoY + Accumulated Gross Margin
   isHighGrowth: boolean; // Score >= 40
   summary: string; // AI generated summary
+}
+
+export interface WatchlistItem {
+  symbol: string;
+  companyName: string;
+  score: number;
+  isHighGrowth: boolean;
+  addedAt: number;
 }
 
 export enum AnalysisStatus {
