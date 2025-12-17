@@ -1,0 +1,5 @@
+{
+  "name": "股票搜尋",
+  "description": "利用 Gemini AI 搜尋股票數據的財務分析工具",
+  "requestFramePermissions": []
+}
